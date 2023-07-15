@@ -1,0 +1,379 @@
+body {
+    margin: 0px;
+    background-color: black;
+
+}
+p,h3{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+.main {
+    width: 1365px;
+    margin: 0px auto;
+}
+
+/* header */
+hr {
+    display: inline-block;
+    height: 40px;
+    vertical-align: middle;
+    margin-left: 5px;
+
+}
+.header-botlink hr {
+    height: 20px;
+
+}
+.header-botlink a {
+    font-size: 14px;
+
+}
+.header-botlink {
+    display: inline-block;
+    margin-right: 60px;
+    background-color: rgb(75, 75, 75);
+    padding: 0px 20px;
+}
+header a {
+    padding-left: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 19px;
+    color: white;
+
+}
+header {
+    width: 1350px;
+    height: 140px;
+   background-image: url(image/star.jpg);
+    text-align: center;
+    display: inline-block;
+
+}
+.left-header {
+
+    float: left;
+}
+.header-toplink {
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    right: 50px;
+    top: 10px;
+}
+.right-header {
+    text-align: right;
+    position: relative;
+    left: 260px;
+    bottom: 40px;
+}
+.zarebin {
+    vertical-align: middle;
+    background-color: rgb(131, 126, 126);
+    height: 20px;
+    
+}
+.input-header{
+    border:2px solid rgb(69, 62, 62);
+}
+.right-header img {
+    width: 25px;
+}
+.input-header {
+
+    display: inline-block;
+
+}
+.icon-share {
+    vertical-align: middle;
+}
+
+/* main nasa */
+.box1 {
+    display: inline-block;
+position: relative;
+    width: 49%;
+    height: 550px;
+    margin-left: 10px;
+    background-image: url(image/jupiter.jpg);
+}
+.box2 {
+    display: inline-block;
+    vertical-align: top;  
+    width: 655px;
+    height: 550px;
+    margin-left: 10px;
+position: relative;
+}
+.img1-box2 {
+
+    display: inline-block;
+    width: 320px;
+    height: 285px;
+    background-image: url(image/ax-zamin.jpeg);
+}
+.links-box2 {
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgb(116, 111, 175);
+    width: 326px;
+    height: 285px;
+    margin-left: 5px;
+}
+.links-box2 hr {
+    height: 1px;
+    width: 97%;
+}
+.links-box2 span {
+    margin-left: 10px;
+    margin-top: 6px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+.links-box2 a {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: inline-block;
+    padding: 7px 7px 0px 7px;
+
+}
+#links-bottom {
+
+    position: relative;
+    top: 80px;
+
+}
+.img2-box2 {
+    margin-top: 4px;
+    background-image: url(image/nasa-logo.jpg);
+    height: 260px;
+}
+.box3 {
+    
+    height: 550px;
+    width: 98%;
+    margin: 8px 0px 0px 10px;
+
+}
+.img1-box3 {
+position: relative;
+    display: inline-block;
+    width: 24%;
+    height: 49%;
+    background-image: url(image/shatel1.jpg);
+}
+.img2-box3 {
+position: relative;
+    display: inline-block;
+    margin-left: 15px;
+    width: 49%;
+    height: 49%;
+    background-image: url(image/img2mars.jpg);
+}
+.img3-box3 {
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+    width: 24%;
+    height: 49%;
+    background-image: url(image/soyuzimg3.jpg);
+}
+.img4-box3 {
+position: relative;
+    display: inline-block;
+    width: 24%;
+    height: 49%;
+    margin-top: 5px;
+    background-image: url(image/zamin.jpg);
+}
+.img5-box3 {
+    position: relative;
+    display: inline-block;
+    width: 24%;
+    height: 49%;
+    margin-left: 13px;
+    background-image: url(image/parvane4.jpg);
+}
+.img6-box3 {
+    position: relative;
+    display: inline-block;
+    width: 24%;
+    height: 49%;
+    margin-left: 10px;
+    background-image: url(image/siah-chaleh.jpg);
+}
+.img7-box3 {
+    position: relative;
+    display: inline-block;
+    width: 24%;
+    height: 49%;
+    margin-left: 15px;
+    background-image: url(image/pahbad.jpg);
+}
+
+/* h3,p box1 */
+.box1 p {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 510px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(223, 221, 221, 0.836);
+    width: 97%;
+}
+.box1 span {
+    position: absolute;
+    top: 472px;
+    padding: 10px;
+    background-color: rgb(73, 73, 190);
+    color: white;
+    display: inline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* box2 p span */
+.img1-box2 p{
+color: rgb(12, 12, 12);
+font-family: Arial, Helvetica, sans-serif;
+padding: 10px;
+background-color: rgba(247, 247, 247, 0.781);
+position: relative;
+top: 230px;
+}
+.img2-box2 span{
+    width: 60px;
+    color: white;
+    padding: 10px ;
+    background-color: rgb(73, 73, 190);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top:195px;
+    
+}
+.img2-box2 p{
+    width: 635px;
+    color: rgb(12, 12, 12);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: rgba(247, 247, 247, 0.781);
+    position: relative;
+    top: 204px;
+}
+
+/* box3 */
+.box3 span{  
+    position: absolute;
+    top: 177px;
+    background-color: rgb(69, 78, 207);
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white; 
+}
+.box3 p{
+    position: absolute;
+    top: 214px;
+    color: black;
+   background-color:rgba(224, 224, 224, 0.842);
+    width: 302px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.img2-box3 p{
+    position: absolute;
+    top: 232px;
+    color: black;
+   background-color:rgba(224, 224, 224, 0.842);
+    width: 635px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.img2-box3 span{ 
+    position: absolute;
+    top: 194px;
+    background-color: rgb(69, 78, 207);
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.img4-box3 p{
+    position: absolute;
+    top: 231px;
+    color: black;
+   background-color:rgba(224, 224, 224, 0.842);
+    width: 302px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.img4-box3 span{
+    position: absolute;
+    top:194px;
+    background-color: rgb(69, 78, 207);
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;    
+}
+
+.img7-box3 p{
+    position: absolute;
+    top: 232px;
+    color: black;
+   background-color:rgba(224, 224, 224, 0.842);
+    width: 302px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.img7-box3 span{
+    position: absolute;
+    top: 195px;
+    background-color: rgb(69, 78, 207);
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+}
+
+/* more */
+.more{
+  text-align: center;
+
+}
+.more button{
+    margin-top:  25px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(54, 54, 202);
+    border: none;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* footer */
+
+footer{
+    padding: 30px 10px 60px 10px;
+}
+.span{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: white;
+   display: inline-block;
+   vertical-align: top;
+   margin-top: 5px;
+}
+.right-footer{
+text-align: right;
+}
+.right-footer a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-right: 20px;
+    color: rgb(72, 117, 214);
+}

@@ -1,0 +1,109 @@
+@keyframes move {
+
+    /* Goes Forward */
+    0% {
+        transform: translateX(40px);
+
+
+    }
+
+    /* Goes Down */
+    10% {
+        transform: translateY(400px) translateX(100px) scaleY(0.7);
+    }
+
+    /* Goes Up */
+    20% {
+        transform: translateY(100px) translateX(150px) scaleX(0.7)
+    }
+
+    /* Goes Down */
+    30% {
+        transform: translateY(400px) translateX(200px) scaleY(0.7);
+    }
+
+    /* Goes Up */
+    40% {
+        transform: translateY(160px) translateX(250px) scaleX(0.7);
+    }
+
+    /* Goes Down */
+    50% {
+        transform: translateY(400px) translateX(300px) scaleY(0.7)
+    }
+
+    /* Goes Up */
+    60% {
+        transform: translateY(220px) translateX(350px) scaleX(0.8)
+    }
+
+    /* Goes Down */
+    70% {
+        transform: translateY(400px) translateX(400px) scaleY(0.7)
+    }
+
+    /* Goes Up */
+    80% {
+        transform: translateY(290px) translateX(450px) scaleX(0.8)
+    }
+
+    /* Goes Down */
+    90% {
+
+        transform: translateY(400px) translateX(500px) scaleY(0.9)
+    }
+
+    /* Goes Up */
+    100% {
+        transform: translateY(400px) translateX(700px)
+    }
+
+
+
+
+}
+
+/* Ball Related */
+#mydiv {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: rgb(227, 239, 235);
+    padding: 10px;
+    margin: 10% 10%;
+    background: radial-gradient(circle at 50% 120%, #81e8f6, #76deef 10%, #055194 80%, #062745 100%);
+
+
+
+
+}
+
+#mydiv:hover {
+
+    animation-name: move;
+    animation-duration: 7s;
+    transition-property: all;
+    transition-duration: 10s;
+    transition-delay: 10s;
+}
+
+
+hr {
+    width: 190px;
+    height: 5px;
+    top: 250px;
+    position: absolute;
+    background-color: rgb(33, 33, 33);
+    border-radius: 70%;
+
+}
+
+body {
+    background-color: #0176A0;
+    background-image: -moz-radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+    background-image: -webkit-radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+    background-image: -o-radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+    background-image: -ms-radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+    background-image: radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#029CC9', endColorstr='#005077', GradientType=0);
+}

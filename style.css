@@ -1,0 +1,124 @@
+* {
+  margin: 0 ;
+  padding: 0;
+}
+a{
+  opacity: 0.2;
+}
+body {
+  margin: 0 auto;
+  background-color: rgb(42, 42, 42);
+  background-image: url(scifi-circle-exploration-2-motion-graphics-design-motion-design-animation-illusion-pictures.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+section {
+  margin: 0 auto;
+  width: 70%;
+  /* background:repeating-linear-gradient(rgb(185, 161, 161), rgb(164, 203, 164), rgb(189, 189, 228)); */
+  height: 550px;
+  border-radius: 10px;
+}
+header {
+  margin: 50px auto 0;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  height: 50px;
+
+  width: 80%;
+}
+
+header span {
+  margin-top: 70px;
+  padding: 15px;
+  background-color: rgba(56, 26, 26, 0.148);
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 10px;
+  /* transition-property: all;
+   transition-delay: 1.0s;
+   transition-duration: 1.0s; */
+  box-shadow: rgba(236, 84, 84, 0.5) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    color: rgb(211, 212, 213);
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 7%;
+}
+
+/* #container>div {
+    background-color: rgb(210, 209, 209);
+    border-radius: 15px;
+} */
+#container > ul {
+  box-shadow: rgba(51, 51, 52, 0.805) 0px 7px 29px 0px;
+  height: 375px;
+  width: 200px;
+  border-radius: 15px;
+  color: aqua;
+  background-color: rgb(5, 5, 5);
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  
+}
+#container ul h3{
+transition-duration: 2s;
+  transition-delay: 1s;
+  transition-property: all;
+  color: rgb(211, 212, 213);
+}
+#container ul li {
+  margin: 10px 0;
+  list-style: none;
+  font-size: 20px;
+  padding: 10px 0;
+  /* display: none; */
+  
+}
+#container ul li a {
+  color: rgb(228, 36, 84);
+  text-decoration: none;
+  padding: 5px 50px;
+  transition-property: all;
+  transition-duration: 2s;
+}
+
+ /* #container ul:hover li  {
+  display: block;
+ 
+  
+} */
+#container ul li:hover {
+  background-color: rgba(0, 0, 0, 0.031);
+  border-radius: 10px;
+  transition-property: all;
+  transition-duration: 0.1ms;
+  transition-delay: 0.1ms;
+  transition-timing-function: ease-out;
+  box-shadow: rgba(225, 51, 51, 0.5) 0px 0px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    animation-name: magics;
+   
+  }
+
+  #container ul li:hover a{
+  opacity: 1;
+  transition-property: all;
+  transition-duration: 0.12s;
+  transition-delay: 0.1s;
+  color: rgb(253, 0, 0);
+  
+  
+}
+
+
