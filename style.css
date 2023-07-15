@@ -114,8 +114,8 @@ transition-duration: 2s;
   #container ul li:hover a{
   opacity: 1;
   transition-property: all;
-  transition-duration: 0.12s;
-  transition-delay: 0.1s;
+  transition-duration: 0.52s;
+  transition-delay:1ms;
   color: rgb(253, 0, 0);
   
   
