@@ -8,9 +8,11 @@ a{
 body {
   margin: 0 auto;
   background-color: rgb(42, 42, 42);
-  background-image: url(scifi-circle-exploration-2-motion-graphics-design-motion-design-animation-illusion-pictures.gif);
+  background-image: url(img/a597ee1b024a2ec15f62210c4ef3a5e1.gif);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position: center;
+  background-size:100%;
+
 }
 
 section {
